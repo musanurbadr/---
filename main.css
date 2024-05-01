@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@400;500;600;700&family=Cairo:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,200;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Hanken+Grotesk:ital,wght@0,300;0,500;0,600;0,700;0,800;1,500&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Outfit&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Overpass", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.mat {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 20px;
+}
+.mat p{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(223, 220, 226);
+}
+
+.mat input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 350px;
+    border-radius: 20px;
+    color: black;
+    border: none;
+}
+input:hover {
+    background-color: rgba(61, 186, 253, 0.824); /* Rengi kırmızı, opaklığı yarı saydam (0.5) yapar */
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.mat button{
+    border-radius: 20px;
+    background-color:  hsl(25, 97%, 53%);
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.10s;
+}
+button:hover{
+    background-color: hsl(25, 100%, 57%) ;
+}
+
